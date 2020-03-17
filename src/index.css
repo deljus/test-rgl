@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.text {
+  padding: 10px;
+  display: flex;
+  position: relative;
+}
+
+.a {
+  background-color: aquamarine;
+}
+
+.b {
+  background-color: bisque;
+}
+
+.c {
+  background-color: cadetblue;
+}
+
+.d {
+  background-color: coral;
+}
+
+.d .react-resizable-handle {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjM2Mzk2IDEuNzA3MTFMOC42NTY4NSAxTDEgOC42NTY4NUwxLjcwNzExIDkuMzYzOTZMOS4zNjM5NiAxLjcwNzExWk05LjM2Mzk2IDYuNzA3MTFMOC42NTY4NSA2TDUuODI4NDMgOC44Mjg0M0w2LjUzNTUzIDkuNTM1NTNMOS4zNjM5NiA2LjcwNzExWiIgZmlsbD0iIzE0MUIyNCIgZmlsbC1vcGFjaXR5PSIwLjQiLz4KPC9zdmc+Cg==");
+
+}
+
+
+.d > .react-resizable-handle::after {
+  border: none !important;
+}
+
+.layout {
+  background-color: darkgray;
+}
